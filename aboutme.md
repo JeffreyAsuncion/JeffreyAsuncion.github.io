@@ -1,14 +1,13 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: But Did you Die?
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I am one with the force and the force is with me
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
+- Grey Jedi
+- Dual LightSabre
 What else do you need?
 
 ### my history
