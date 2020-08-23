@@ -6,10 +6,11 @@ subtitle: But Did you Die?
 
 I am one with the force and the force is with me
 
-Data Scientist
-Python Developer
-Coding Enthusiast
-Chemical Engineer 1997
+<li>Data Scientist
+
+<li>Python Developer
+<li>Coding Enthusiast
+<li>Chemical Engineer 1997
 
 
 # my history
