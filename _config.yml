@@ -20,11 +20,12 @@ description: This is where we put our portfolio projects
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  
   Projects:
     - Data Visualizations : "in the works"
     - Machine Learning Model : "https://medium.com/@jeffrey.l.asuncion/flight-status-predictor-6055233d5c97"
     - Web API with Machine Learning : "https://twitoff-nyc.herokuapp.com/"
+  About Me: "aboutme"
   #Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
