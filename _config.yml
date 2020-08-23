@@ -20,7 +20,7 @@ description: This is where we put our portfolio projects
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "http://www.linkedin.com/in/jeffreyasuncion"
+  About Me: "aboutme"
   Projects:
     - Data Visualizations : "in the works"
     - Machine Learning Model : "https://medium.com/@jeffrey.l.asuncion/flight-status-predictor-6055233d5c97"
