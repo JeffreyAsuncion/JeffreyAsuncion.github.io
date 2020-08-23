@@ -25,9 +25,8 @@ navbar-links:
     - Data Visualizations : "in the works"
     - Machine Learning Model : "https://medium.com/@jeffrey.l.asuncion/flight-status-predictor-6055233d5c97"
     - Web API with Machine Learning : "https://twitoff-nyc.herokuapp.com/"
+  LinkedIn : "www.linkedin.com/in/jeffreyasuncion"
   About Me: "aboutme"
-  #Author's home: "http://deanattali.com"
-
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/avatar/HeadShot B&W.jpg" #"/img/avatar-icon.png"
@@ -40,7 +39,7 @@ avatar: "/img/avatar/HeadShot B&W.jpg" #"/img/avatar-icon.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col:  "#F5F5F5" # really i did this is orange'#fca903'
+navbar-col: "#FCA903"  # really i did this is orange"#F5F5F5"
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
