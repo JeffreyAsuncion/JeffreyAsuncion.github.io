@@ -1,0 +1,20 @@
+Databases : local, server and cloud
+
+It has been an interesting two weeks at Lambda School starting with SQL review.
+
+We started working locally with sqlite3. then server side SQL with ElephantSQL and Finally in the Cloud with NOSQL in mongoDB.
+It is interesting being able to write python scripts to accessing databases with credentials, create tables, drop table,
+insert data from csv, from sqlite3 to ElephantSQL and sqlite to mongoDB.
+Codecademy SQL Course Completed as well as, W3Schools for review and TablePlus. Four hour SQL Database Tutorial by freeCodeCamp.
+4 project in 2 weeks.
+Our Cohort DSPT6 will finish strong with our Sprint Challenge Today
+
+Skills
+- working Databases locally, server or cloud based
+- SQL and NOSQL of Databases respectively
+- writing Python Scripts to Create, Retrieve, Update and Delete
+- discussion of ACID and BASE with relation to Databases
+- Design of Database Schema
+
+
+#lambdaschool #careerpaths #datascience #remotelearning #mywhy
