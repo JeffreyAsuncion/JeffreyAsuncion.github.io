@@ -24,7 +24,8 @@ navbar-links:
   Projects:
     - Data Visualizations : "in the works"
     - Machine Learning Model : "https://medium.com/@jeffrey.l.asuncion/flight-status-predictor-6055233d5c97"
-    - Web API with Machine Learning : "https://twitoff-nyc.herokuapp.com/"
+    - Twiiter ML Web API  : "https://twitoff-nyc.herokuapp.com/"
+    - Spotify Song Suggestor : "https://songsuggester-nyc.herokuapp.com"
   LinkedIn : "http://www.linkedin.com/in/jeffreyasuncion"
   About Me: "aboutme"
 # Image to show in the navigation bar - image must be a square (width = height)
