@@ -1,18 +1,15 @@
 ---
 layout: page
 title: About me
-subtitle: But Did you Die?
+subtitle: There are no ordinary moments.
 ---
 
-I am one with the force and the force is with me
+A coder from way back,  Commodore 64 coding in BASIC, double siding 5" floppy with a hole puncher.  Then life happened. And it happend to steer me back to coding this time with python and data science. The Journey into Data Science began Feb 2020 with an inquiry into Lambda School. and Next thing you know it. March 2020, I am in DSPT6. Whoa! 
 
 <li>Data Scientist
-
 <li>Python Developer
 <li>Coding Enthusiast
 <li>Chemical Engineer 1997
 
 
-# my history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
