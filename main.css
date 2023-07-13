@@ -274,7 +274,7 @@ h1{
 /* Skills */
 
 #skills{
-    height: 95vh;
+    height: 100vh;
     width: 100vw;
     text-align: center;
     color:#151616;
@@ -372,7 +372,7 @@ h1{
 /* Projects */
 
 #projects{
-    height: 150vh;
+    height: 130vh;
     width: 100vw;
     text-align: center;
     background-color: #f2f2f2;
@@ -420,7 +420,7 @@ h1{
 
 @media screen and (max-width: 600px) {
     #skills{
-        height: 65rem;
+        height: 85rem;
     }
 
     .grid{
@@ -435,7 +435,7 @@ h1{
     }
 
     #projects{
-        height: 150rem;
+        height: 65rem;
     }
 
     .text-projects{
@@ -452,7 +452,7 @@ h1{
 /* Contact */
 
 #contact{
-    height: 50vh;
+    height: 100vh;
     width: 100vw;
     text-align: center;
     color:#151616;
