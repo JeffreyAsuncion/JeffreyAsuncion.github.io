@@ -420,7 +420,7 @@ h1{
 
 @media screen and (max-width: 600px) {
     #skills{
-        height: 85rem;
+        height: 75rem;
     }
 
     .grid{
