@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156252981-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156252981-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="particles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <title>Jeffrey Asuncion</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init('user_GI9nplfVd6DnwoytfIJtX');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById('form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                emailjs.sendForm('gmail', 'template_bbIwBIu2', this);
+                document.contact_form.reset();
+                showSnackbar();
+            });
+        }
+    </script>
+</head>
+
+<body style="width: 100%; overflow-x: hidden;">
+    <!-- Navigation Bar -->
+    <header>
+        <nav id="nav">
+            <div id="menu" class="menu">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Page Secton -->
+    <main>
+        <!-- Full Screen Main Section -->
+
+        <section id="home">
+            <div id="particles-js">
+                <div class="text-home">
+                    <h1 class="wow animated fadeInLeft">
+                        Hi there!<br />
+                        I'm Jeffrey Asuncion.
+                    </h1>
+                    <div class="wow padding animated fadeIn">
+                        <p class="indic animated">I'm a Data Engineer / Educator and I make cool
+                            stuff smart.</p>
+                        <a href="#" class="arrow-down"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+
+        <section id="about">
+            <div class="text-about">
+                <img class="projects" src="imgs/me.jpeg" alt="" />
+                <h1 class="wow animated fadeInUp">About Me</h1>
+                <p class="wow animated fadeInUp">
+                    Greetings,<br>
+                    My name is Jeffrey Asuncion, a data professional with three years of dedicated experience in 
+                    developing robust data engineering solutions to facilitate data analysis and machine learning processes. 
+                    <br /><br />
+                    I hold a Bachelor's Degree in Chemical Engineering from New Jersey Institute of Technology, 
+                    and I am equipped with a Certificate of Data Science and Data Engineering from Bloom Institute of Technology 
+                    (formerly known as Lambda School). 
+                    
+                    <br /><br />
+                    In addition, I proudly hold a certification as an AWS Certified Solutions Architect. 
+                    I am recognized for my unwavering commitment to going above and beyond to ensure the successful completion of projects.
+                    
+                    <br /><br />
+                    <br>
+                    <a class="button wow animated fadeInUp" href="resume/JeffreyAsuncion.pdf"
+                        target="_blank">Resume</a>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+
+        <section id="skills">
+            <div class="text-skills">
+                <h1 class="wow animated fadeInUp">Tech I've Worked With</h1>
+                <div class="wow grid animated fadeInUp">
+                    <div>
+                        <h3>Data Science</h3>
+                        <img src="imgs/python.png" alt="">
+                        <p>Python</p>
+                        <br><br>
+                        <!-- <img src="imgs/r.png" alt=""><p>R</p>
+                            <br><br> -->
+                        <img src="imgs/Rlogo.png" alt="">
+                        <p>R</p>
+                        <br><br>
+                        <img src="imgs/postgresql.png" alt="">
+                        <p>Postgres</p>
+                        <br><br>
+                    </div>
+                    <div>
+                        <h3>ETL / ELT</h3>
+                        <img src="imgs/ApacheSpark.png" alt="">
+                        <p>Spark</p>
+                        <br><br>
+                        <img src="imgs/airflow.png" alt="">
+                        <p>AirFlow</p>
+                        <br><br>
+                        <img src="imgs/ApacheKafka.png" alt="">
+                        <p>Kafka</p>
+                        <br><br>
+                    </div>
+                    <div>
+                        <h3>Machine Learning</h3>
+                        <img src="imgs/tensorflow.png" alt="">
+                        <p>Tensorflow</p>
+                        <br><br>
+                        <img src="imgs/pytorch_logo.png" alt="">
+                        <p>PyTorch</p>
+                        <br><br>
+                    </div>
+                    <div>
+                        <h3>Analytics</h3>
+                        <img src="imgs/PowerBI.png" alt="">
+                        <p>Power BI</p>
+                        <br><br>
+                        <img src="imgs/TableauLogo.png" alt="">
+                        <p>Tableau</p>
+                        <br><br>
+                        <img src="imgs/LookerGCP.png" alt="">
+                        <p>Looker</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+
+        <section id="projects">
+            <div class="text-projects">
+                <h1 class="wow animated fadeInUp">Projects</h1>
+                <h3 class="wow animated fadeInUp">Smart Things I've Created</h3>
+                <div class="wow inline animated fadeInUp">
+                    <div>
+                        <a href="https://github.com/JeffreyAsuncion/Intelligent_Snakes_AI" target="_blank"><img
+                                src="imgs/IntelligentSnakeAI.gif" alt=""></a>
+                        <p>Intelligent Snakes</p>
+                    </div>
+                    <div>
+                        <a href="https://github.com/JeffreyAsuncion/Youtube-Ad-Campaign-Data-Ingestion-to-Visualization" target="_blank"><img
+                                src="imgs/E2EYouTubeAnalysis.gif" alt=""></a>
+                        <p>Ingestion-to-Visualization</p>
+                    </div>
+                </div>
+                <br><br><br>
+                <a href="https://www.github.com/JeffreyAsuncion" target="_blank" class="wow button animated fadeIn">More
+                    Projects</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            
+        </section>
+
+
+        <!-- particles.js container -->
+
+        <!-- scripts -->
+        <script src="js/lib/particles.min.js"></script>
+        <script src="js/lib/app.js"></script>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <a href="https://www.github.com/JeffreyAsuncion" target="_blank"><img src="imgs/githug.svg" alt="">
+            <p>Github</p>
+        </a>
+        <a href="https://www.linkedin.com/in/jeffreyasuncion" target="_blank"><img src="imgs/linkedin.svg" alt="">
+            <p>LinkedIn</p>
+        </a><br><br>
+        <img src="imgs/Mail.png" alt="">
+        <p>jeffrey.l.asuncion@gmail.com</p>
+        <p>Made by Jeffrey Asuncion</p>
+    </footer>
+
+    <!-- Script -->
+
+    <script type="text/javascript" src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <script type="text/javascript">
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("menu").style.top = "0";
+            } else {
+                document.getElementById("menu").style.top = "-100px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
+        function showSnackbar() {
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+            setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+        }
+    </script>
+</body>
+
+</html>
